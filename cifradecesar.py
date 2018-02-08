@@ -1,5 +1,4 @@
-put = input('Texto para criptografar: ')
-a = put.replace('z', '`')
+a = input('Texto para criptografar: ')
 texto = []
 encoded = []
 cipher = []
@@ -14,5 +13,4 @@ for x in encoded:
     cha = chr(x)
     y = cipher.append(cha)
 str1 = ''.join(cipher)
-result = str1.replace('!', ' ')
-print(result)
+print(str1)
